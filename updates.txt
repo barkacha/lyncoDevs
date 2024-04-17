@@ -2,15 +2,15 @@
 
 [Update]
 Name = SmartBooks 2023
-ProductVersion = 1.1.1
+ProductVersion = 1.1.2
 URL = https://barkacha.github.io/lyncoDevs/smart Books 2024.msi
 Size = 15441408
-SHA256 = 821B57EFAAD344EB5665EEF2394CB0EF6E759D83D6529E965995F1F376C03FA4
-MD5 = a1a3924468b903906a9cee067ce8561e
+SHA256 = 90D41FE730F24132DAFB7E5C315D9609CE0F8BFF4F9D47D8ABD6372F46C01802
+MD5 = 2eceab89bc02854a05be3c96a416ca8c
 ServerFileName = SmartBooks 2023.msi
 Flags = Critical
 RegistryKey = HKUD\Software\LynscoDevlopers Ltd\SmartBooks 2023\Version
 Version = 1.1.1
-Description = V1.1.1
+Description = V1.1.2
 Feature = Eabled customer details databse
 Feature1 = Printable customer purchase reciept
