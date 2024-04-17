@@ -1,1 +1,14 @@
-hello
+;aiu;
+
+[Update]
+Name = SmartBooks 2023
+ProductVersion = 1.0.0
+URL = https://barkacha.github.io/lyncoDevs/smart Books 2024.msi
+Size = 15668224
+SHA256 = 90B5D73766FF329B52918158F8E4849AA341F249466656498BAD94A8AC96DB42
+MD5 = b6df055ce43c020753e1e764cb397451
+ServerFileName = SmartBooks 2023.msi
+Flags = Critical
+RegistryKey = HKUD\Software\LynscoDevlopers Ltd\SmartBooks 2023\Version
+Version = 1.0.0
+Description = hello
