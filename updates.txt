@@ -2,14 +2,14 @@
 
 [Update]
 Name = smart Books 2023
-ProductVersion = 2.0.0
+ProductVersion = 2.5.0
 URL = https://barkacha.github.io/lyncoDevs/smart Books 2024.msi
 Size = 15230976
-SHA256 = 11A885D572988738A7B2FD3BDCF48ADE9F65EE8901EAD373B49EF5281C880BA7
-MD5 = 90885ac4b533a83bf4c9339e9b70e9bc
+SHA256 = C54FEBB3BD9D4441F6A278B1EF2F0234ADC0535C2FE5555551A089FCBECE7D5E
+MD5 = 764774984b4bfc1c30a85b91264f64c1
 ServerFileName = smart Books 2024.msi
 Flags = Critical
 RegistryKey = HKUD\Software\Your Company\smart Books 2023\Version
-Version = 2.0.0
+Version = 2.5.0
 Description = new cool fetures
-Feature = >>>>Awesome
+Feature = 2024 new update
