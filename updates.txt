@@ -3,7 +3,7 @@
 [Update]
 Name = SmartBooks 2023
 ProductVersion = 1.1.3
-URL = https://barkacha.github.io/lyncoDevs/smart Books 2024.msi
+URL = https://barkacha.github.io/lyncoDevs/SmartBooks 2024.msi
 Size = 15668736
 SHA256 = 729A2E08FA0075A0BFFFDA4CA2B34E0FC49AAACD80618CBAB962D7DB125FDB53
 MD5 = f09e5368d0db7097db9461bea480a825
