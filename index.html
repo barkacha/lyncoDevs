@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unzip File</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script type="text/javascript">
+        function unzipFile() {
+            fetch('Smartbooks.zip')
+                .then(response => response.arrayBuffer())
+                .then(zipData => {
+                    var zip = new JSZip();
+                    return zip.loadAsync(zipData);
+                })
+                .then(zip => {
+                    var fileList = document.getElementById("fileList");
+                    fileList.innerHTML = ""; // Clear previous entries
+
+                    zip.forEach(function (relativePath, zipEntry) {
+                        if (!zipEntry.dir) { // Exclude directories
+                            var fileName = zipEntry.name.split('/').pop();
+                            var url = "https://lyncodev/" + fileName; // Customize the URL as needed
+                            var a = document.createElement("a");
+                            a.href = url;
+                            a.textContent = fileName;
+                            a.download = fileName; // Make the link downloadable
+                            fileList.appendChild(a);
+                            fileList.appendChild(document.createElement("br"));
+                        }
+                    });
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+</head>
+<body onload="unzipFile()">
+    <div id="fileList"></div>
+</body>
+</html>
