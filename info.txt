@@ -1,3 +1,6 @@
-1.0.0.0
+1.0.0.2
 
-I didn't set Assembly Info. I am working 3rd party InstallShield for creating setup. I have set version and all in it but didn't set in Assembly. I thought InstallShield will manage. Anyways, I have changed Assembly info. It is working fine now. Let me know if I still understand wrong.
+I didn't set Assembly Info. I am working 3rd party InstallShield for creating setup.
+I have set version and all in it but didn't set in Assembly. 
+I thought InstallShield will manage. Anyways, I have changed Assembly info.
+It is working fine now. Let me know if I still understand wrong.
